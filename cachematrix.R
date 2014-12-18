@@ -9,14 +9,15 @@
 
 ##  Indeed,the cacheSolve function is in charge of calculating only once,
 ##  the inverse of the given makeCacheMatrix object as its argument.
-##  When this function is called twice and more, it returns a caching result, 
+##  When this function is called one more time, it returns a caching result, 
 ##  thus to increase the performance. It's particularly fine
 ##  when this function handles big square matrix.
         
 ## ********************************
 ## Write a short comment describing this function
-##      This function creates a special matrix which is a list containing
-##      the following functions :
+
+##    This function creates a special matrix which is a list containing
+##    the following functions :
 
 ##    setMat() : set the matrix to encapsulate, a matrix is given as an argument  
 ##    getMat() : returns the value of the encapsulated matrix 
