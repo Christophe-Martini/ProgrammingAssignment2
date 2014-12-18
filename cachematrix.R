@@ -4,7 +4,7 @@
 ##  the makeCacheMatrix function returns a list of four functions 
 ##  to handle an encpsulated matrix. 
 ##  One of them allows to get the inverse of the current matrix
-##  However it returns NULL if the makeCacheMatrix function has not been called
+##  However it returns NULL if the cacheSolve function has not been called
 ##  before.
 
 ##  Indeed,the makeCacheMatrix function is in charge of calculating only once,
@@ -39,7 +39,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-##  makeCacheMatrix calculates the inverse of the makeCacheMatrix object given
+##  cacheSolve calculates the inverse of the makeCacheMatrix object given
 ##  as its argument.
 ##  When cacheSolve is called for calculating the inverse of this given matrix,
 ##  it first calls the getInv() function upon this matrix object so as to verify
