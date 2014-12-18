@@ -7,7 +7,7 @@
 ##  However it returns NULL if the cacheSolve function has not been called
 ##  before.
 
-##  Indeed,the makeCacheMatrix function is in charge of calculating only once,
+##  Indeed,the cacheSolve function is in charge of calculating only once,
 ##  the inverse of the given makeCacheMatrix object as its argument.
 ##  When this function is called twice and more, it returns a caching result, 
 ##  thus to increase the performance. It's particularly fine
